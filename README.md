@@ -1,30 +1,53 @@
-<h1 align="center">Hi 👋, I'm Mohd Kaif</h1>
-<h3 align="center">Web Developer | AI Tools | Prompt Engineer</h3>
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Mohd%20Kaif&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<!-- Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&lines=Web+Developer;AI+Tools+Specialist;Prompt+Engineer;Always+Learning+New+Things" />
+</p>
 
 ---
 
-### 🧠 About Me
-- 🎓 Diploma in Computer Engineering
-- 💻 Skilled in HTML, CSS, JavaScript, C
-- ⚡ Currently learning Advanced Web & Firebase
+<h2 align="center">🚀 About Me</h2>
+
+- 🎓 Diploma in Computer Engineering  
+- 💻 HTML, CSS, JavaScript, C  
+- ⚡ Learning Advanced Web & Firebase  
+- 🔥 Building real-world projects  
 
 ---
 
-### 🛠 Tech Stack
-- HTML
-- CSS
-- JavaScript
-- C
-- Git & GitHub
+<h2 align="center">🛠 Tech Stack</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,c,github,vscode,firebase" />
+</p>
 
 ---
 
-### 🚀 Projects
-- 🔹 8086 Virtual Simulator  
-- 🔹 Chat App (Coming Soon)  
-- 🔹 Notification App (Coming Soon)
+<h2 align="center">🚀 Projects</h2>
+
+<p align="center">
+  🔹 8086 Virtual Simulator <br>
+  🔹 Chat App (Coming Soon) <br>
+  🔹 Notification App (Coming Soon)
+</p>
 
 ---
 
-### 📫 Connect
-- LinkedIn (add your link)
+<h2 align="center">🌐 Connect with Me</h2>
+
+<p align="center">
+  <a href="https://linkedin.com/in/www.linkedin.com/in/mohd-kaif-shaikh-912868324">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
+
+---
+
+<!-- Footer Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+</p>
