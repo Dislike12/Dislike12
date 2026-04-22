@@ -31,8 +31,7 @@
 
 <p align="center">
   🔹 8086 Virtual Simulator <br>
-  🔹 Chat App (Coming Soon) <br>
-  🔹 Notification App (Coming Soon)
+  🔹 PYPI Package For AI to understand codebase without deep scan and consume less Tokens <br>
 </p>
 
 ---
