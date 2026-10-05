@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Kaif Signal — animated code graph</title>
+  <desc id="desc">A luminous network of connected nodes, orbiting paths, and moving signal pulses in cyan, blue, and violet on a deep midnight grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="0.52" stop-color="#10152a"/>
+      <stop offset="1" stop-color="#090d1c"/>
+    </linearGradient>
+    <radialGradient id="glow-left">
+      <stop offset="0" stop-color="#19d7ce" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#19d7ce" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-right">
+      <stop offset="0" stop-color="#a25cff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#a25cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5cf4d6"/>
+      <stop offset=".52" stop-color="#70a8ff"/>
+      <stop offset="1" stop-color="#c07bff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8da8d7" stroke-opacity=".075" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#7fe9e1" fill-opacity=".18"/>
+    </pattern>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="small-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <ellipse cx="195" cy="172" rx="300" ry="240" fill="url(#glow-left)"/>
+  <ellipse cx="1035" cy="165" rx="310" ry="240" fill="url(#glow-right)"/>
+
+  <g fill="none" stroke="#7891ba" stroke-opacity=".22" stroke-width="1.2">
+    <path d="M0 78H168L206 116H326"/>
+    <path d="M0 260H152L195 217H300"/>
+    <path d="M1200 74H1030L995 109H884"/>
+    <path d="M1200 267H1054L1014 226H902"/>
+    <path d="M70 0V42L104 76"/>
+    <path d="M1126 0V39L1093 72"/>
+    <path d="M77 340V300L119 258"/>
+    <path d="M1120 340V298L1082 260"/>
+  </g>
+  <g fill="none" stroke="url(#signal)" stroke-linecap="round" stroke-width="2" opacity=".78">
+    <path d="M0 78H168L206 116H326" stroke-dasharray="10 180">
+      <animate attributeName="stroke-dashoffset" values="0;-380" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 260H152L195 217H300" stroke-dasharray="8 190">
+      <animate attributeName="stroke-dashoffset" values="0;420" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200 74H1030L995 109H884" stroke-dasharray="8 170">
+      <animate attributeName="stroke-dashoffset" values="0;390" dur="8.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200 267H1054L1014 226H902" stroke-dasharray="10 190">
+      <animate attributeName="stroke-dashoffset" values="0;-410" dur="9.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#a8c0e9" fill-opacity=".45">
+    <circle cx="104" cy="76" r="2"/><circle cx="168" cy="78" r="2.4"/>
+    <circle cx="206" cy="116" r="2.4"/><circle cx="152" cy="260" r="2"/>
+    <circle cx="195" cy="217" r="2.5"/><circle cx="1093" cy="72" r="2"/>
+    <circle cx="1030" cy="74" r="2.4"/><circle cx="995" cy="109" r="2.5"/>
+    <circle cx="1054" cy="267" r="2.2"/><circle cx="1014" cy="226" r="2.5"/>
+  </g>
+
+  <g transform="translate(600 170)">
+    <circle r="106" fill="none" stroke="#476083" stroke-opacity=".34" stroke-width="1.2"/>
+    <circle r="82" fill="none" stroke="#6aa8ce" stroke-opacity=".34" stroke-width="1.2" stroke-dasharray="2 9"/>
+    <circle r="61" fill="none" stroke="#b57cff" stroke-opacity=".3" stroke-width="1.2" stroke-dasharray="22 14">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="url(#signal)" stroke-width="2" stroke-linecap="round" opacity=".8" filter="url(#small-glow)">
+      <path d="M-106 0C-76 0-71-40-37-40"/>
+      <path d="M106 0C76 0 71 40 37 40"/>
+      <path d="M0-106C0-74 40-70 40-37"/>
+      <path d="M0 106C0 75-40 70-40 37"/>
+    </g>
+    <g fill="none" stroke="#8fa7cf" stroke-opacity=".5" stroke-width="1.4">
+      <path d="M-132-46L-74-28L-44-50L-13-32"/>
+      <path d="M132 46L74 28L44 50L13 32"/>
+      <path d="M-30-136L-18-75L-42-49"/>
+      <path d="M30 136L18 75L42 49"/>
+    </g>
+    <g fill="url(#signal)" filter="url(#small-glow)">
+      <circle cx="-132" cy="-46" r="3"><animate attributeName="r" values="2.5;4.2;2.5" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="132" cy="46" r="3"><animate attributeName="r" values="3;4.6;3" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="-30" cy="-136" r="2.8"><animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="30" cy="136" r="2.8"><animate attributeName="opacity" values="1;.45;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="-44" cy="-50" r="2.4"/><circle cx="44" cy="50" r="2.4"/>
+    </g>
+    <circle r="37" fill="#0c1325" stroke="url(#signal)" stroke-width="2.2" filter="url(#soft-glow)"/>
+    <circle r="27" fill="#111b30" stroke="#b4dcff" stroke-opacity=".5" stroke-width="1"/>
+    <g fill="none" stroke="#d8f6ff" stroke-linecap="round" stroke-width="2.4" opacity=".9">
+      <path d="M-12-8L-4-15L5-8L13-12"/>
+      <path d="M-12 2L-4-5L5 2L13-2"/>
+      <path d="M-12 12L-4 5L5 12L13 8"/>
+    </g>
+    <circle r="6" fill="#7af3de" filter="url(#small-glow)">
+      <animate attributeName="opacity" values=".75;1;.75" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="none" stroke="url(#signal)" stroke-linecap="round" filter="url(#small-glow)">
+    <path d="M285 170H487" stroke-width="1.4" stroke-opacity=".55"/>
+    <path d="M713 170H915" stroke-width="1.4" stroke-opacity=".55"/>
+    <path d="M286 170H487" stroke-width="3" stroke-dasharray="5 176" opacity=".9">
+      <animate attributeName="stroke-dashoffset" values="0;-181" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M713 170H914" stroke-width="3" stroke-dasharray="5 176" opacity=".9">
+      <animate attributeName="stroke-dashoffset" values="0;181" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#c4d8ff" opacity=".7">
+    <circle cx="344" cy="139" r="1.8"><animate attributeName="opacity" values=".25;.9;.25" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="386" cy="202" r="1.6"><animate attributeName="opacity" values=".9;.3;.9" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="819" cy="138" r="1.8"><animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="858" cy="204" r="1.5"><animate attributeName="opacity" values=".8;.25;.8" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="53" r="1.5"><animate attributeName="opacity" values=".15;.7;.15" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="943" cy="55" r="1.7"><animate attributeName="opacity" values=".65;.2;.65" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="292" r="1.7"><animate attributeName="opacity" values=".7;.2;.7" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="290" r="1.5"><animate attributeName="opacity" values=".2;.8;.2" dur="3.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="338" rx="24" fill="none" stroke="#b7caff" stroke-opacity=".13"/>
+</svg>

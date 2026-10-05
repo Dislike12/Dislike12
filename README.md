@@ -1,28 +1,47 @@
-# Mohd Kaif
+<div align="center">
+  <img src="./assets/kaif-signal.svg" width="100%" alt="Animated constellation of connected code nodes and flowing cyan-violet signal paths on a midnight background." />
+  <h1>MOHD KAIF</h1>
+  <p><strong>Computer Engineering Student · Developer Tools · Interactive Systems</strong></p>
+  <p>I build tools that make code easier to explore and systems easier to understand.</p>
+  <p>
+    <a href="#featured-work">Featured work</a> ·
+    <a href="#toolbox">Toolbox</a> ·
+    <a href="https://linkedin.com/in/mohd-kaif-shaikh-912868324">Connect</a>
+  </p>
+</div>
 
-**Computer Engineering student · Software developer**
+<div align="center">
+  <img src="./assets/signal-divider.svg" width="100%" alt="Animated cyan and violet signal line." />
+</div>
 
-I build developer tools and interactive learning software. My recent work spans Python-based codebase analysis, TypeScript/React applications, and Rust command-line tools.
+## Featured work
 
-## Selected projects
+| Project | What it does | Built with |
+|---|---|---|
+| [BrainGraph](https://github.com/Dislike12/BrainGraph) | Maps a codebase and produces focused context for AI-assisted development, with a local-first approach. | Python |
+| [x86 Studio — 8086 IDE](https://github.com/Dislike12/8086-V2.1) | An educational IDE that translates a custom language into assembly and runs it in a virtual CPU. | TypeScript · React |
+| [Python Project Lab](https://github.com/Dislike12/python) | Five documented command-line tools, each with tests; CI checks Python 3.10, 3.11, and 3.12. | Python · unittest · Ruff |
+| [Repo Checkup](https://github.com/Dislike12/repo-checkup) | A local-only first-pass checklist for common repository files—not a security scanner or quality score. | Python · pytest · Ruff |
 
-- **[BrainGraph](https://github.com/Dislike12/BrainGraph)** — A local-first Python tool that maps codebase structure and produces focused context for AI-assisted development.
-- **[x86 Studio — 8086 IDE](https://github.com/Dislike12/8086-V2.1)** — An educational TypeScript/React IDE that translates a custom language into assembly and runs it in a virtual CPU.
+## Toolbox
 
-Browse [my repositories and public contribution activity](https://github.com/Dislike12) for more work.
+**Languages** · Python · TypeScript · JavaScript · Rust · C<br />
+**Build & test** · React · Vite · Git · GitHub Actions · pytest · unittest · Ruff
 
-## Technologies used in my projects
+## How I like to build
 
-**Languages:** Python · TypeScript · JavaScript · Rust · C
+```text
+Make it useful  →  Keep it understandable  →  Prove it works
+```
 
-**Frameworks and tools:** React · Vite · Git · GitHub
+I’m especially interested in developer tooling, code intelligence, compilers, emulators, and approachable learning software. I value clear scope, readable documentation, and checks that make a project reproducible.
 
-Currently learning: Firebase and deeper software testing practices.
+## Explore
 
-## Areas of interest
+- [Browse my public repositories](https://github.com/Dislike12?tab=repositories)
+- [See my public contribution activity](https://github.com/Dislike12)
+- [Connect on LinkedIn](https://linkedin.com/in/mohd-kaif-shaikh-912868324)
 
-Developer tooling · Local-first AI applications · Compilers and emulators · Cybersecurity · Accessible, reliable software
+---
 
-## Contact
-
-For project discussions or collaboration, [connect with me on LinkedIn](https://linkedin.com/in/mohd-kaif-shaikh-912868324) or visit [my GitHub profile](https://github.com/Dislike12).
+<p align="center"><sub>Designed to stay readable in plain text; the animated artwork is self-hosted in this repository.</sub></p>
