@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="./assets/kaif-signal.svg" width="100%" alt="Animated constellation of connected code nodes and flowing cyan-violet signal paths on a midnight background." />
-  <h1>MOHD KAIF</h1>
-  <p><strong>Computer Engineering Student · Developer Tools · Interactive Systems</strong></p>
-  <p>I build tools that make code easier to explore and systems easier to understand.</p>
+  <img src="./assets/ambient-glass.gif" width="100%" alt="Looping ambient-glass 3D banner for Mohd Kaif: a frosted identity card, computer engineering student, and a softly rotating glass sphere with orbiting rings." />
+  <p><strong>I build tools that make code easier to explore and systems easier to understand.</strong></p>
   <p>
     <a href="#featured-work">Featured work</a> ·
     <a href="#toolbox">Toolbox</a> ·
@@ -10,9 +8,7 @@
   </p>
 </div>
 
-<div align="center">
-  <img src="./assets/signal-divider.svg" width="100%" alt="Animated cyan and violet signal line." />
-</div>
+---
 
 ## Featured work
 
@@ -44,4 +40,4 @@ I’m especially interested in developer tooling, code intelligence, compilers, 
 
 ---
 
-<p align="center"><sub>Designed to stay readable in plain text; the animated artwork is self-hosted in this repository.</sub></p>
+<p align="center"><sub>The animated glass artwork is self-hosted in this repository; no external image widgets are required.</sub></p>
