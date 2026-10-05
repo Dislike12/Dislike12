@@ -1,52 +1,28 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Mohd%20Kaif&fontSize=40&fontColor=ffffff&animation=fadeIn" />
-</p>
+# Mohd Kaif
 
-<!-- Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&lines=Web+Developer;AI+Tools+Specialist;Prompt+Engineer;Always+Learning+New+Things" />
-</p>
+**Computer Engineering student · Software developer**
 
----
+I build developer tools and interactive learning software. My recent work spans Python-based codebase analysis, TypeScript/React applications, and Rust command-line tools.
 
-<h2 align="center">🚀 About Me</h2>
+## Selected projects
 
-- 🎓 Diploma in Computer Engineering  
-- 💻 HTML, CSS, JavaScript, C  
-- ⚡ Learning Advanced Web & Firebase  
-- 🔥 Building real-world projects  
+- **[BrainGraph](https://github.com/Dislike12/BrainGraph)** — A local-first Python tool that maps codebase structure and produces focused context for AI-assisted development.
+- **[x86 Studio — 8086 IDE](https://github.com/Dislike12/8086-V2.1)** — An educational TypeScript/React IDE that translates a custom language into assembly and runs it in a virtual CPU.
 
----
+Browse [my repositories and public contribution activity](https://github.com/Dislike12) for more work.
 
-<h2 align="center">🛠 Tech Stack</h2>
+## Technologies used in my projects
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,c,github,vscode,firebase" />
-</p>
+**Languages:** Python · TypeScript · JavaScript · Rust · C
 
----
+**Frameworks and tools:** React · Vite · Git · GitHub
 
-<h2 align="center">🚀 Projects</h2>
+Currently learning: Firebase and deeper software testing practices.
 
-<p align="center">
-  🔹 8086 Virtual Simulator <br>
-  🔹 PYPI Package For AI to understand codebase without deep scan and consume less Tokens <br>
-</p>
+## Areas of interest
 
----
+Developer tooling · Local-first AI applications · Compilers and emulators · Cybersecurity · Accessible, reliable software
 
-<h2 align="center">🌐 Connect with Me</h2>
+## Contact
 
-<p align="center">
-  <a href="https://linkedin.com/in/www.linkedin.com/in/mohd-kaif-shaikh-912868324">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
-
----
-
-<!-- Footer Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
-</p>
+For project discussions or collaboration, [connect with me on LinkedIn](https://linkedin.com/in/mohd-kaif-shaikh-912868324) or visit [my GitHub profile](https://github.com/Dislike12).
